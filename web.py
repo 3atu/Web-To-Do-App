@@ -11,7 +11,7 @@ def add_todo():
 st.title("To-Do or Not To-Do")
 #st.subheader("Track your  tasks!")
 st.write("Increase your productivity and track your tasks with this simple to-do app.")
-st.text_input(label="label", 
+st.text_input(label="", 
                 placeholder="Add a task...", 
                 on_change=add_todo, 
                 key="new_todo")
